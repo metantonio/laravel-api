@@ -1,4 +1,4 @@
-# Installation
+# Installation from 0
 
 Make sure to have composer installed.
 
@@ -325,6 +325,12 @@ Route::apiResource('projects', ProjectController::class)->middleware('auth:api')
 ```
 
 We added a register route and login routes which are post routes and also an apiResource route for projects utilizing the auth:api middleware.
+
+# Installation from this respository
+
+Most of the steps can be ommited, if this repository if clone from here: https://github.com/metantonio/laravel-api
+
+I've to make a test to be sure and make a list.
 
 # Run server
 

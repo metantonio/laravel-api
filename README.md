@@ -1,4 +1,5 @@
 # Installation from 0
+Make sure to have PHP installed (version 8.0.28 i used).
 
 Make sure to have composer installed.
 

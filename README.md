@@ -2,7 +2,7 @@
 
 Make sure to have composer installed.
 
-Make sure to have a relational database created, example with WAMP Server (phpmyAdmin, MySQL, MariaDB, etc...)
+Make sure to have a relational empty database created, example with WAMP Server (phpmyAdmin, MySQL, MariaDB, etc...)
 
 1. Clone this repository with: `composer create-project --prefer-dist laravel/laravel laravel_8_api_crud --ignore-platform-req=ext-fileinfo`
 

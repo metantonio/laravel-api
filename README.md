@@ -26,8 +26,8 @@ use Illuminate\Support\Facades\Schema;
 
 5. Run our migration command: `php artisan migrate`
 
-In case of error, it's propably that you have to modify php.ini file, and change:
-`;extension = pdo_mysql` to `extension = pdo_mysql` and then it will be able to connect to DB
+In case of error, it's probably that you have to modify php.ini file, and change:
+`;extension = pdo_mysql` to `extension = pdo_mysql` and then it will be able to connect to a SQL DB.
 
 6. Create encription keys: `php artisan passport:install`
  Important: This command will also create "personal access" and "password grant" clients which will be used to generate access tokens. It will be printed on console. Save it somewhere!!
